@@ -11,9 +11,8 @@ int main()
     int no;
     long fac;
 
-    //printf("Enter a Number : ");
+
   cout<<"Enter a Number : ";
-    //scanf("%d", &no);
   cin>>no;
 
     fac = 1;
@@ -21,7 +20,6 @@ int main()
         fac = fac * r;
     }
 
-    //printf("Factorial of %d is %ld\n", no, fac);
   cout<<"Factorial of" << no << " is : " << fac;
     return 0;
 }

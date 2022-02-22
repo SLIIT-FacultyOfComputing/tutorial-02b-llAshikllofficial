@@ -24,14 +24,11 @@ using namespace std;
 int main() 
 {
     float cm, inches;
-    //printf("Enter a length in cm : ");
   cout<< "Enter a length in cm : ";
-    //scanf("%f",&cm);
   cin>>cm;
   
     inches = cm / 2.54;
   
-    //printf("Length in inches is %f \n", inches);
   cout<< "Length in inches is "<<inches;
   
     return 0;
